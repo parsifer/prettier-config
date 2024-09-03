@@ -18,7 +18,7 @@ After installation, you can copy/paste the following block of code within the `p
 
 ```json
 {
-  "prettier": "@adonisjs/prettier-config"
+  "prettier": "@parsifer/prettier-config"
 }
 ```
 
