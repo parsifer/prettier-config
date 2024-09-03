@@ -1,7 +1,7 @@
 {
     "name": "@parsifer/prettier-config",
     "description": "Prettier config preset used by Parsifer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "keywords": [
         "prettier",
