@@ -1,0 +1,39 @@
+{
+    "name": "@parsifer/prettier-config",
+    "description": "Prettier config preset used by Parsifer",
+    "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "prettier",
+        "parsifer"
+    ],
+    "files": [
+        "index.json"
+    ],
+    "main": "index.json",
+    "exports": {
+        ".": "./index.json"
+    },
+    "scripts": {
+        "release": "release-it"
+    },
+    "homepage": "https://github.com/parsifer/prettier-config#readme",
+    "bugs": {
+        "url": "https://github.com/parsifer/prettier-config/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/parsifer/prettier-config.git"
+    },
+    "author": "Ryan Stratton <ryan@parsifer.com>",
+    "contributors": [
+        "Ryan Stratton <ryan@parsifer.com>"
+    ],
+    "publishConfig": {
+        "provenance": true
+    },
+    "devDependencies": {
+        "@release-it/conventional-changelog": "^8.0.1",
+        "release-it": "^17.6.0"
+    }
+}
